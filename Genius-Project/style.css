@@ -1,0 +1,127 @@
+:root {
+    /* Головні кольори */
+    --color-primary-white: rgba(255, 255, 255, 1);
+    --color-primary-light: rgba(43, 127, 255, 1);
+    --color-primary-dark: rgba(1, 28, 68, 1);
+    /* Другорядні кольори */
+    --color-secondary-1: rgba(74, 74, 74, 1);
+    --color-secondary-2: rgba(74, 74, 74, 1);
+    --color-secondary-3: rgba(116, 114, 114, 1);
+    --color-secondary-4: rgba(1, 31, 74, 1);
+    --color-secondary-5: rgba(255, 208, 43, 1);
+    /* Шрифти */
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Play', sans-serif;
+
+}
+
+/* Ефекти */
+.effect-shadow-1 {
+    box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.38);
+}
+
+.effect-shadow-2 {
+    box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.20);
+}
+
+/* глобальні стилі */
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    color: var(--color-primary-dark);
+    font-size: 22px;
+    font-family: var(--font-primary);
+    font-weight: 400;
+}
+
+h1 {
+    font-family: var(--font-secondary);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: var(--font-secondary);
+    font-size: 64px;
+}
+
+.heading-accent {
+    color: var(--color-primary-light);
+}
+
+.info {
+    font-size: 12px;
+    color: var(--color-secondary-3);
+}
+
+.button-main {
+    background-color: var(--color-primary-light);
+    border-radius: 32px;
+    border: none;
+    padding: 16px 32px;
+    color: var(--color-primary-white);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Шапка */
+
+.header-nav li {
+    font-size: 18px;
+    color: var(--color-primary-white)
+}
+
+.header-nav li:hover {
+    color: var(--color-primary-light)
+}
+
+/* Секція 1 */
+.hero-section .heading-accent {
+    text-transform: capitalize;
+    font-size: 140px;
+    font-weight: 700;
+}
+
+.hero-section p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    /* 150% */
+}
+
+/* Секція 2 */
+.transformation-section p span {
+    font-weight: 700;
+}
+
+/* Секція 3 */
+.why-us-section h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Секція 4 */
+.procedures-section h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Секція 5 */
+.contact-us-section h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* Підвал */
+footer {
+    font-size: 16px;
+    background: #011C44;
+    color: var(--color-primary-white);
+}
